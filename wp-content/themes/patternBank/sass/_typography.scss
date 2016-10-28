@@ -1,0 +1,26 @@
+a{
+	color: $primary;
+	transition: all $transitionTime ease;
+
+	&:hover{
+		color: $primaryShadow;
+	}
+}
+
+h1{
+	font-size: 48px;
+	font-weight: 200;
+	line-height: 1.4em;
+}
+
+h2{
+	font-size: 32px;
+	font-weight: 200;
+	line-height: 1.4em;
+}
+
+p{
+	line-height: 1.4em;
+	font-weight: 300;
+	font-size: 16px;
+}

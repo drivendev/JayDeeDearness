@@ -1,0 +1,43 @@
+header{
+	color: $white;
+	padding: 0 10px;
+}
+
+.absolute_pos{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+.logo{
+	float: left;
+	display: inline-block;
+	margin: 20px 10px 0;
+
+	font-weight: bold;
+	font-size: 3.8rem;
+	color: $white;
+
+	img{
+		width: 202px;
+		height: 48px;
+	}
+}
+
+@media only screen and (max-width: $mediaSmallMobile){
+
+	header{
+		padding: 10px 0 0;
+	}
+
+	.logo{
+		float: none;
+		margin: 0 0 10px 20px;
+		
+		img{
+			width: 180px;
+		}
+	}
+}

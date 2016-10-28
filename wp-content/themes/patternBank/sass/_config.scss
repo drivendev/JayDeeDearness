@@ -1,0 +1,31 @@
+//Layout
+$siteWidth: 100%; //sets the maximum with of the website. Default 100%. If constrained, site will align to the centre.
+$rowWidth: 100%; //the row width can be limited for full width site with constrained rows.
+$contentConstraint: 1140px; //sets the max width of the content within the row with a default gutter.
+
+$gutter: 20px; //horizontal spacing
+$spacing: 40px; //vertical spacing
+
+$mediaSmallDesktop: 1000px;
+$mediaTablet: 768px;
+$mediaMobile: 550px;
+$mediaSmallMobile: 480px;
+
+//Typography
+$fontSize: 1.6em; //general body copy size
+$fontLineHeight: 1.4em; //general body copy line height
+
+//Colours
+$black: #302e2f;
+$white: #fff;
+
+$primary: #caa95c;
+$secondary: #cb8b76;
+$tertiary: #d5e4be;
+
+$darkGrey: #302e2f;
+$grey: #bababa;
+$lightGrey: #f1f2f2;
+
+//Misc
+$transitionTime: 0.4s;

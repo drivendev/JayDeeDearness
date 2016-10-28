@@ -1,0 +1,29 @@
+.button{
+	transition: all $transitionTime ease;
+	border: 2px solid $primary;
+	padding: 13px 20px !important;
+	display: block;
+	max-width: 265px !important;
+	margin: 60px auto 0;
+	color: $primary;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 300;
+	font-family: raleway;
+
+	&:hover{
+		background-color: $primaryShadow;
+		border-color: $primaryShadow;
+		color: $white;
+	}
+
+	&.black{
+		color: $black;
+		border-color: $darkGrey;
+
+		&:hover{
+			background-color: $darkGrey;
+			color: $white;
+		}
+	}
+}

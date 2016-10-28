@@ -1,0 +1,54 @@
+.page{
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+
+	article{
+		padding: 0 80px 20px;
+	}
+
+	h2, h3{
+		color: $primary;
+		margin: 40px 0 10px;
+	}
+
+	p{
+		font-size: 20px;
+		line-height: 1.6em;
+		margin: 0 0 13px;
+	}
+
+	.button{
+		margin-bottom: 80px;
+	}
+}
+
+.gallery{
+	padding-bottom: 20px;
+
+	&_image{
+		margin-bottom: 10px;
+	}
+
+	img{
+		display: block;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width:768px){
+	.page{
+
+		article{
+			padding: 0 0 20px;
+		}
+
+		p{
+			font-size: 18px;
+		}
+	}
+
+	.gallery{
+		padding-bottom: 10px;
+	}
+}

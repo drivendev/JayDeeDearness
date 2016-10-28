@@ -1,0 +1,30 @@
+nav.pagination{
+	margin: 80px 0;
+	float: none;
+
+	h2{
+		display: none;
+	}
+
+	a{
+		color: $black;
+		font-weight: 400;
+	}
+
+	.nav-links{
+		span, a{
+			display: inline-block;
+			padding: 5px 6px;
+
+			&:hover{
+				opacity: 1;
+				color: $primary;
+			}
+		}
+
+		.current{
+			border-bottom: 3px solid $primary;
+			color: $primary;
+		}
+	}
+}
